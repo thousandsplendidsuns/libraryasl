@@ -1,4 +1,4 @@
-
+<!DOCTYPEHTML>
 
 body {
 
@@ -24,8 +24,8 @@ h1, h2 {
 }
 
 h3 {
-  color: #2d6a4f
-  font-family:serif;
+  color: #2d6a4f;
+  font-family: serif;
 }
 
 
@@ -76,9 +76,6 @@ footer {
   padding-bottom: 40px;
   font-family: courier;
   font-size: 12px;
-  border-top: 2px solid #1b4332;
-  font-family: courier;
-  font-size: 1=50%;
 }
 /*used this font color for the header and footer border because green is a good contrast with lavender,
 and also helps darken the footer*/
@@ -90,14 +87,10 @@ article {
   padding-top: 14px;
 }
 
-aside h2 {
-  font-size: 1.4rem;
-}
-
 
 video {
-  width:100%
-  height:auto;
+  width:100%;
+  height: auto;
   margin-right: auto;
   margin-left: 10px;
   border-style: solid;
@@ -116,9 +109,9 @@ ul {
   list-style-position: outside;
 }
 
-hr.dashed {
-  border-top: 50px #c77dff
-  color: #509724
+.dashed {
+  border-top:50px; #c77dff;
+  color:#509724
 }
 /*using this to break up the text/keep a space between the ol and the body of the text*/
 
@@ -145,15 +138,13 @@ hr.dashed {
   overflow: hidden;
 }
 
-.gallery-item.item-3x4 {
-  flex-basis: calc(175px * 0.75);
 }
 .small:hover {
 	-webkit-transform: scale(1.03, 1.03);
-	transform: scale(1.03, 1.03);
+	   -ms-transform: scale(1.03, 1.03);
 }
 
-ul.a {
+.a {
   list-style-type: decimal;
   font-family: sans-serif;
   color: #530863;
@@ -167,7 +158,7 @@ color:#000000;
 text-decoration : none;
 }
 
-mark.DarkGreen {
+.DarkGreen {
   color: #006400;
   background: none;
 }
@@ -178,7 +169,7 @@ mark.DarkGreen {
 
 
 /*for mobile phones */
-[class*="col-"] {
+[class="col-"] {
   width: 100%;
 }
 
