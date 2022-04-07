@@ -1,11 +1,20 @@
-body {
-  background-color: #ACEB98;
-  font-family: arial, sans-serif;
+*{
+  box-sizing: border-box;
  }
+
+
+body {
+
+  background-color: #dbcdf0;
+  font-family: arial, sans-serif;
+  text-indent: 20px;
+  margin-left: 10px;
+ }
+ /*lavender is a good background color for accessability*/
 
 .wrapper {
   background-color: #ffffff;
-  width: 93%;
+  width: 98%;
   max-width: 800px;
   margin: 0 auto;
   padding: 12px 20px;
@@ -13,53 +22,75 @@ body {
 }
 
 h1, h2 {
-  color: #9e2a2b;
+  color: #2d6a4f;
+  font-family: serif;
+}
+
+h3 {
+  color: #2d6a4f
+  font-family: serif;
+}
+
+h3 {
+  color: #006400;
 }
 
 blockquote {
-  border-left: 3px solid #003E1F;
+  border-left: 3px solid #240046;
   padding-left: 12px;
-  background-color: #bad9a2
 
+  background-color: #C2A9CB
 }
 
 p.caption {
   font-style: italic;
+  font-size: 12px;
 }
 
 a {
-  color: #DB2955;
-
+  color: #5e2e9e;
 }
+
 
 img {
   display: block;
-  max-width: 98%;
+  max-width: 97%;
   height: auto;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 10px;
   border-style: solid;
 }
 
 header {
-  background-image: url("../images/moroccan-flower.png");
-  border-bottom: 2px solid #d2d2d2;
+  background-image: url("../images/oriental-pattern.png");
+  border-bottom: 2px solid #1b4332;
+  border-bottom: 2px solid #081c15;
   text-align: center;
 }
+/*the oriental pattern is a reference to the Mosaic that it both part of Fillory and Further,
+and also a quest that Elliot and Q have to complete in season 3*/
 
 header.wrapper {
   padding: 26px 20px;
 }
 
 footer {
+  display:block;
+  border-top: 2px solid Black;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: monospace;
   font-family: courier;
-  font-size: 70%;
-  border-top: 2px solid #d2d2d2;
+  font-size: 12px;
+  border-top: 2px solid #1b4332;
+  font-family: courier;
+  font-size: 1=50%;
 }
+/*used this font color for the header and footer border because green is a good contrast with lavender,
+and also helps darken the footer*/
+
+
+
 
 article {
   padding-top: 14px;
@@ -68,6 +99,89 @@ article {
 aside h2 {
   font-size: 1.4rem;
 }
+
+
+video {
+  width:100%
+  height:auto;
+  margin-right: auto;
+  margin-left: 10px;
+  border-style: solid;
+}
+
+ol  {
+font-style: italic;
+font-family: cursive;
+}
+/*using this font to create contrast with the other text around it, but its still legible*/
+
+ul {
+  font-style: normal;
+  font-family: sans-serif;
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+hr.dashed {
+  border-top: 50px #c77dff
+  color: #509724
+}
+/*using this to break up the text/keep a space between the ol and the body of the text*/
+
+.container {
+	max-width:120rem;
+	margin: 0 auto;
+	text-align: left;
+  padding: 0 1.5rem;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  flex: 1 1 auto;
+  flex-basis: 175px;
+  margin: .5em;
+  max-width: 530px;
+  max-height: 300px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.gallery-item.item-3x4 {
+  flex-basis: calc(175px * 0.75);
+}
+.small:hover {
+	-webkit-transform: scale(1.03, 1.03);
+	transform: scale(1.03, 1.03);
+}
+
+ul.a {
+  list-style-type: decimal;
+  font-family: sans-serif;
+  color: #530863;
+}
+a { color:#530863;
+text-decoration:none;
+}
+
+a:hover {
+color:#000000;
+text-decoration : none;
+}
+
+mark.DarkGreen {
+  color: #006400;
+  background: none;
+}
+
+
+
+
+
 
 /*for mobile phones */
 [class*="col-"] {
