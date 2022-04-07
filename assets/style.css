@@ -1,14 +1,10 @@
-<!DOCTYPEHTML>
-
 body {
-
   background-color: #dbcdf0;
   font-family: arial, sans-serif;
   text-indent: 20px;
   margin-left: 10px;
- }
  /*lavender is a good background color for accessability*/
-
+}
 .wrapper {
   background-color: #ffffff;
   width: 98%;
@@ -110,7 +106,7 @@ ul {
 }
 
 .dashed {
-  border-top:50px; #c77dff;
+  border-top: 50px; #c77dff;
   color:#509724
 }
 /*using this to break up the text/keep a space between the ol and the body of the text*/
@@ -140,9 +136,8 @@ ul {
 
 }
 .small:hover {
-	-webkit-transform: scale(1.03, 1.03);
-	   -ms-transform: scale(1.03, 1.03);
-}
+	-webkit-transform: scale(1.03 [,1.03]); /* Google Chrome */
+-ms-transform: scale(1.03 [,1.03]); /* Internet Explorer */}
 
 .a {
   list-style-type: decimal;
@@ -163,15 +158,6 @@ text-decoration : none;
   background: none;
 }
 
-
-
-
-
-
-/*for mobile phones */
-[class="col-"] {
-  width: 100%;
-}
 
 /* Style the navigation bar */
 .navbar {
