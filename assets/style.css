@@ -113,6 +113,7 @@ header.wrapper {
 footer {
   display:block;
   border-top: 2px solid Black;
+  background-image: url(assets/images/magic-book-background-image.jpg);
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
