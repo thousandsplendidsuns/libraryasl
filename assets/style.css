@@ -1,6 +1,3 @@
-*{
-  box-sizing: border-box;
- }
 
 
 body {
@@ -28,12 +25,9 @@ h1, h2 {
 
 h3 {
   color: #2d6a4f
-  font-family: serif;
+  font-family:serif;
 }
 
-h3 {
-  color: #006400;
-}
 
 blockquote {
   border-left: 3px solid #240046;
@@ -42,7 +36,7 @@ blockquote {
   background-color: #C2A9CB
 }
 
-p.caption {
+.caption {
   font-style: italic;
   font-size: 12px;
 }
