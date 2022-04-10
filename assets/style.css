@@ -52,7 +52,7 @@ img {
 }
 
 header {
-  background-image: url("../images/oriental-pattern.png");
+  background-image: url("..assets/images/oriental-pattern.png");
   border-bottom: 2px solid #1b4332;
   border-bottom: 2px solid #081c15;
   text-align: center;
@@ -113,7 +113,7 @@ header.wrapper {
 footer {
   display:block;
   border-top: 2px solid Black;
-  background-image: url(assets/images/magic-book-background-image.jpg);
+  background-image: image(img-src=url("assets/images/magic-book-background-image.jpg");
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
