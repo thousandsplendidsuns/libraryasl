@@ -88,6 +88,7 @@ header {
 #top-header{
   text-align: center;
   height: 60px;
+  background-image:url(../assets/images/magic-book-background-image.jpg);
 }
 
 #logo{
@@ -113,7 +114,6 @@ header.wrapper {
 footer {
   display:block;
   border-top: 2px solid Black;
-  background-image: image(img-src=url("assets/images/magic-book-background-image.jpg");
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
