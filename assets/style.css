@@ -313,7 +313,7 @@ Vocabulary list
     padding: .5em 0;
   }
 
-  .Vocabulary {
+  .Term {
     width: calc(100% * 1/3 - 2rem);
   }
 }
