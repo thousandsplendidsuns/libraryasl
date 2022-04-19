@@ -312,8 +312,4 @@ Vocabulary list
     margin: .5em 0;
     padding: .5em 0;
   }
-
-  .Term {
-    width: calc(100% * 1/3 - 2rem);
-  }
 }
