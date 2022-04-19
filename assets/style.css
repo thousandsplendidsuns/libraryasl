@@ -214,11 +214,11 @@ text-decoration : none;
 }
 
 /* Navbar links */
-.navbar a {
+.topnav a {
   float: left;
   text-align: center;
-  padding: 12px;
-  color: white;
+  padding: 14px 16px;
+  color: black;
   text-decoration: none;
   font-size: 17px;
 }
