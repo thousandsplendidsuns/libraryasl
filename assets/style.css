@@ -335,18 +335,7 @@ Vocabulary list
   }
 }
 
-@media (min-width:800px) {
-  //Change AlphabetNav to work horizontally
-  .AlphabetNav {
-    top: 0;
-    display: flex;
-    align-items: flex-start;
-    flex-flow: nowrap row;
-    justify-content: space-around;
-    width: 100%;
-    height: auto;
-    background: ghostwhite;
-  }
+
   .AlphabetNav a {
     margin: .5em 0;
     padding: .5em 0;
