@@ -223,7 +223,7 @@ text-decoration : none;
 .AlphabetNav a {
   display: flex;
 //Center align the letteres within each
-justify-content: left;
+justify-content: center;
 padding: .5em;
 border-radius: 8px;
 font-size: 1.2em;
