@@ -1,5 +1,5 @@
 body {
-  background-color: #dbcdf0;
+  background-color: #ebfef5;
   font-family: arial, sans-serif;
   text-indent: 20px;
   margin-left: 10px;
@@ -14,7 +14,7 @@ body {
 
 }
 
-h1, h2 {
+h1 {
   color: #2d6a4f;
   font-family: serif;
 }
@@ -206,5 +206,26 @@ text-decoration : none;
   background: none;
 }
 
+.hr {
+  width: 10px;
+  border-color: : #368156;
+  background-color: #d7f1f8;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+.btn {
+  color: black;
+  background-color: #78e4aa;
+  height: 40px;
+  width: 90px;
+  padding: 2px;
+  border: 2px solid black;
+  text-decoration: none;
+  font-family: century;
 
 
